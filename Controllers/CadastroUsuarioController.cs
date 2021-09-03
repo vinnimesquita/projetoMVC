@@ -5,16 +5,14 @@ namespace MvcMovie.Controllers
 {
     public class CadastroUsuarioController : Controller
     {
-        // 
-        // GET: /HelloWorld/
+        
 
         public IActionResult Index()
         {
             return View();
         }
 
-        // 
-        // GET: /HelloWorld/Welcome/ 
+       
 
         public string Welcome()
         {
